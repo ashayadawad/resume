@@ -1,4 +1,4 @@
-const staticResume = "asha-yadawad-resume-v1"
+const staticResume = "asha-yadawad-resume-v2"
 const filesToCache = [
   "/",
   "/index.html",
@@ -19,6 +19,7 @@ const filesToCache = [
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(staticResume).then(function(cache) {
+      console.log("service worker running");
       return cache.addAll(filesToCache);
     })
    );
