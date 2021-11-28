@@ -4,7 +4,7 @@ asha124rakesh@gmail.com |
 +91 6364197655
 
 
-> Subject: Application for the position of Software Trainee
+Subject: Application for the position of Software Trainee
 
 
 Dear Sir/Madam,
