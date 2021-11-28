@@ -1,4 +1,4 @@
-const staticResume = "asha-yadawad-resume-v2"
+const staticResume = "asha-yadawad-resume-v3"
 const filesToCache = [
   "/",
   "/index.html",
