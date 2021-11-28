@@ -9,7 +9,7 @@ asha124rakesh@gmail.com |
 
 Dear Sir/Madam,
 
-I would like to apply for the position of software Trainee through the campus hiring. I have extensive knowledge in Java, Oops concepts, HTML, CSS & Javascript that fits the role requirements.
+I would like to apply for the position of software Trainee through the campus hiring. I have extensive knowledge in Java, Data structures, Oops concepts, HTML, CSS & Javascript that fits the role requirements.
 
 I am pursuing Masters in Computer Application from [CMR Institute of Technology, Bangalore](https://www.cmrit.ac.in/) and I am expected to graduate in 2022.
 
