@@ -9,9 +9,9 @@ asha124rakesh@gmail.com |
 
 Dear Sir/Madam,
 
-I would like to apply for the position of software Trainee through the campus hiring. I have extensive knowledge in Java, Data structures, Oops concepts, HTML, CSS & Javascript that fits the role requirements.
-
+I am submitting my application for the entry-level software engineer position at your organisation.
 I am pursuing Masters in Computer Application from [CMR Institute of Technology, Bangalore](https://www.cmrit.ac.in/) and I am expected to graduate in 2022.
+I have extensive knowledge in Java, Data structures, Oops concepts, HTML, CSS & Javascript. During my last one year at CMR Institute of Technology, I have been involved in various academic projects, technical seminars and extra-curricular activities. My ability to explain complex things into understandable terms would make me an ideal addition to your team.
 
 Thank you for taking the time to consider my application. I look forward to hearing from you.
 
