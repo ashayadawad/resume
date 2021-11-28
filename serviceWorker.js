@@ -13,22 +13,26 @@ const filesToCache = [
   "/icon-fonts/fontawesome-webfont.woff2",
   "/img/asha.jpg",
   "/img/resume-bg.jpg",
-  "/doc/resume.pdf"
 ]
 
 
-self.addEventListener('install', function(e) {
-  e.waitUntil(
+self.addEventListener('install', function(event) {
+  event.waitUntil(
     caches.open(staticResume).then(function(cache) {
       return cache.addAll(filesToCache);
     })
-  );
+   );
 });
 
-self.addEventListener('fetch', function(e) {
-  e.respondWith(
-    caches.match(e.request).then(function(response) {
-      return response || fetch(e.request);
-    })
-  );
+self.addEventListener('fetch', function(event){
+  event.respondWith(async function () {
+     var cache = await caches.open(staticResume);
+     var cachedResponsePromise = await cache.match(event.request);
+     var networkResponsePromise = fetch(event.request);
+     event.waitUntil(async function () {
+        var networkResponse = await networkResponsePromise;
+        await cache.put(event.request, networkResponse.clone());
+     }());
+     return cachedResponsePromise || networkResponsePromise;
+   }());
 });
