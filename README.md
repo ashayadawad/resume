@@ -25,7 +25,7 @@ I am pursuing Masters in Computer Application from [CMR Institute of Technology,
 - Dancing when I am bored
 - Playing online games when I don't have anything to do.
 
-Above details are tip of the iceberg...Follow the [link](https://reume.com) for more details. 
+Above details are tip of the iceberg...Follow the [link](https://ashayadawad.github.io/resume/) for more details. 
 
 Thank you for taking the time to consider my application. I look forward to hearing from you.
 
