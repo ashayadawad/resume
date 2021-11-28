@@ -12,6 +12,8 @@ const filesToCache = [
   "/icon-fonts/fontawesome-webfont.woff",
   "/icon-fonts/fontawesome-webfont.woff2",
   "/img/asha.jpg",
+  "/img/achievemtents-bg.png",
+  "/img/hobbies-bg.jpg",
   "/img/resume-bg.jpg",
 ]
 

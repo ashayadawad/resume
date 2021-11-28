@@ -366,7 +366,7 @@ ol {
 	Header section
 -----------------------*/
 .header-section {
-	padding: 50px 40px;
+	padding: 0px 40px;
 	background: #f2f7f8;
 }
 
@@ -488,6 +488,17 @@ ol {
 ----------------------*/
 .resume-section.with-bg {
 	background-image: url(../img/resume-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.with-achievements-bg {
+	background-image: url(../img/achievemtents-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.with-hobbies-bg {
+	background-image: url(../img/hobbies-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -1400,6 +1411,52 @@ ol {
 	.info-section .hero-info ul li span {
 		color: #9c9b9b;
 	}
+
+	section.hero-section.spad {
+		padding-top: 0px;
+	}
+	.site-logo h2 {
+		font-size: 27px;
+		text-align: center;
+	}
+	.site-logo p {
+		font-size: 14px;
+		line-height: normal;
+		text-align: center;
+	}
+	.site-btn {
+		
+		font-size: 12px;
+		min-width: 160px;
+		margin-right: 0px;
+	}
+	.download-resume {
+		text-align: center;
+	}
+	.hero-text p {
+		font-size: 29px;
+	}
+	.hero-text {
+		margin-bottom: 23px;
+	}
+	.hero-info h2 {
+		margin-bottom: 0px;
+		font-size: 33px;
+	}
+	.hero-image {
+		padding-top: 10%;
+	}
+	.spad {
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+	.section-title h2 {
+		margin-bottom: 27px;
+	}
+	h3 {
+		font-size: 24px;
+	}
+
 }
 
 /* small Mobile :320px. */
@@ -1433,6 +1490,50 @@ ol {
 	}
 	.home-four-style .main-left-area {
 		padding-top: 250px;
+	}
+	section.hero-section.spad {
+		padding-top: 0px;
+	}
+	.site-logo h2 {
+		font-size: 27px;
+		text-align: center;
+	}
+	.site-logo p {
+		font-size: 14px;
+		line-height: normal;
+		text-align: center;
+	}
+	.site-btn {
+		
+		font-size: 12px;
+		min-width: 160px;
+		margin-right: 0px;
+	}
+	.download-resume {
+		text-align: center;
+	}
+	.hero-text p {
+		font-size: 29px;
+	}
+	.hero-text {
+		margin-bottom: 23px;
+	}
+	.hero-info h2 {
+		margin-bottom: 0px;
+		font-size: 33px;
+	}
+	.hero-image {
+		padding-top: 10%;
+	}
+	.spad {
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+	.section-title h2 {
+		margin-bottom: 27px;
+	}
+	h3 {
+		font-size: 24px;
 	}
 }
 
