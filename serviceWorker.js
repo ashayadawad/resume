@@ -5,7 +5,6 @@ const filesToCache = [
   "/css/bootstrap.min.css",
   "/css/font-awesome.min.css",
   "/css/style.css",
-  "/js/app.js",
   "/js/jquery-2.1.4.min.js",
   "/js/bootstrap.min.js",
   "/icon-fonts/fontawesome-webfont.eot",
@@ -14,6 +13,7 @@ const filesToCache = [
   "/icon-fonts/fontawesome-webfont.woff2",
   "/img/asha.jpg",
   "/img/resume-bg.jpg",
+  "/doc/resume.pdf"
 ]
 
 
