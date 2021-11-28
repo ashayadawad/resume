@@ -1,6 +1,4 @@
-ASHA YADAWAD
-======
-
+<img align="left" src="https://github.com/ashayadawad/resume/blob/main/img/asha.jpg" alt="alt text" width="110" height="135" /> **ASHA YADAWAD** 
 #### Seeking an opportunity to utilize my skills, abilities, talent and knowledge in technical area that offers professional growth while being innovative which increases the success with organisation growth.
 ###### [ asha124rakesh@gmail.com ] . [ +91 636 4197 655 ]
 
@@ -45,6 +43,12 @@ Awards
 - **Secured first rank** during undergrad.
 - **Peer-to-Peer leader**, CMR Institute of technology. Granted to 4 students out of 240 in the college.
 
+Personal Details
+------
+- **Gender:** Female
+- **Nationality:** Indian
+- **Languages Known:**, English, Hindi ,Kannada
+- **Hobbies:** Listening to music, Dancing
 --------
 **[Click here to check out my *Online Portfolio*](https://ashayadawad.github.io/resume/)**
  
