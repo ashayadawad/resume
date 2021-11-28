@@ -1,5 +1,5 @@
-const staticDevCoffee = "asha-yadawad-resume-v1"
-const assets = [
+const staticResume = "asha-yadawad-resume-v1"
+const filesToCache = [
   "/",
   "/index.html",
   "/css/bootstrap.min.css",
@@ -17,18 +17,18 @@ const assets = [
 ]
 
 
-self.addEventListener("install", installEvent => {
-  installEvent.waitUntil(
-    caches.open(staticDevCoffee).then(cache => {
-      cache.addAll(assets)
+self.addEventListener('install', function(e) {
+  e.waitUntil(
+    caches.open(staticResume).then(function(cache) {
+      return cache.addAll(filesToCache);
     })
-  )
-})
+  );
+});
 
-self.addEventListener("fetch", fetchEvent => {
-    fetchEvent.respondWith(
-      caches.match(fetchEvent.request).then(res => {
-        return res || fetch(fetchEvent.request)
-      })
-    )
-  })
+self.addEventListener('fetch', function(e) {
+  e.respondWith(
+    caches.match(e.request).then(function(response) {
+      return response || fetch(e.request);
+    })
+  );
+});

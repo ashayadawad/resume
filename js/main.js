@@ -1,11 +1,11 @@
-/* =================================
-------------------------------------
-	Civic - CV Resume
-	Version: 1.0
- ------------------------------------ 
- ====================================*/
-
-
+window.onload = () => {
+	'use strict';
+  
+	if ('serviceWorker' in navigator) {
+	  navigator.serviceWorker
+			   .register('./serviceWorker.js');
+	}
+  }
 
 'use strict';
 
